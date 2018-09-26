@@ -140,10 +140,14 @@ body {
     position: relative;
     float: left;
     height: 220px;
-    width: 224px;
+    width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
-    padding-left: 10px
+  }
+
+  #more-padding {
+    padding-left: 50px;
+    width: 224px;
   }
   
   .work:nth-child(even) {
