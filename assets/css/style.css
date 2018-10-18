@@ -33,16 +33,16 @@ body {
   h1,
   h2,
   h3 {
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: 'K2D', sans-serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: #f23220;
   }
   
   h1 {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #ddd;
+    border-bottom: 3px solid #f1a7fc;
   }
   
   h2,
@@ -60,21 +60,22 @@ body {
     overflow: auto;
     color: #fff;
     background: #fff;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 3px solid #f1a7fc;
   }
   
   #logo {
     float: left;
     width: 250px;
     height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: 'K2D', sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color: #fff;
+    color: #d50202;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background: #f23220;
+    margin-bottom: 5px;
   }
   
   nav {
@@ -87,7 +88,7 @@ body {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: #999;
+    color: #f23220;
     text-decoration: none;
     border-left: 1px solid #efefef;
   }
@@ -102,11 +103,10 @@ body {
     padding: 30px 0;
     clear: both;
     font-size: 12px;
-    color: #fff;
-    color: #ccc;
+    color: #f1a7fc;
     text-align: center;
-    background: #666;
-    border-top: 8px solid #4aaaa5;
+    background: #efefef;
+    border-top: 8px solid #f23220;
     height: 50px;
   }
   
@@ -120,7 +120,7 @@ body {
   /* main */
   
   #main-container {
-    padding-top: 130px;
+    padding-top: 90px;
     min-height: calc(100vh - 70px);
   }
   
@@ -131,7 +131,6 @@ body {
     padding: 30px;
     margin: 0 0 40px;
     background: #fff;
-    border: 1px solid #ddd;
   }
   
   /* portfolio page */
@@ -170,7 +169,7 @@ body {
     line-height: 30px;
     color: #fff;
     text-align: center;
-    background: #4aaaa5;
+    background: #f23220;
     border-bottom: 0;
   }
   
@@ -189,6 +188,7 @@ body {
   }
   
   #contact-form li {
+    list-style: none;
     margin-bottom: 10px;
   }
   
@@ -218,7 +218,7 @@ body {
     font-size: 18px;
     color: #fff;
     cursor: pointer;
-    background: #4aaaa5;
+    background: #f23220;
     border: 0 none;
   }
   
